@@ -30,3 +30,11 @@ document.getElementById("appointmentForm").addEventListener("submit", function(e
     }
 });
 
+document.getElementById("cancelAppointment").addEventListener("click", function() {
+    let confirmation = confirm("¿Está seguro que desea cancelar la cita?");
+    
+    if (confirmation) {
+        // Aquí podrías enviar una solicitud al servidor para cancelar la cita
+        alert("La cita ha sido cancelada correctamente.");
+    }
+});
