@@ -11,21 +11,21 @@ body {
 }
 
 header {
-    background-color: #296392;
-    color: #fff;
+    background-color: #292020;
+    color: #e2e25f;
     padding: 5px;
     text-align: center;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #296392;
+    background-color: #e2e25f;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,18 +35,18 @@ header {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: rgb(40, 63, 168);
+    color:#e2e25f;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #0dc4ca;
+    background-color: #e2e25f;
     color: white;
   }
 
 a{
     text-decoration: none;
-    color: rgb(255, 254, 254);
+    color: #e2e25f;
     font-weight: bold;
 }
 main {
@@ -75,7 +75,7 @@ button {
 }
 
 button {
-    background-color: #296392;
+    background-color: #000000;
     color: #fff;
     cursor: pointer;
 }
@@ -85,8 +85,8 @@ button:hover {
 }
 
 footer {
-    background-color: #296392;
-    color: #fff;
+    background-color: #292020;
+    color: #e2e25f;
     text-align: center;
     padding: 5px 0;
     position: fixed;
